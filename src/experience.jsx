@@ -12,8 +12,8 @@ const Experience = () => {
     useFrame( (state) => {
         if (!! pointLightRef.current) {
             pointLightRef.current.shadow.bias = -0.0001
-            pointLightRef.current.shadow.mapSize.width = 128
-            pointLightRef.current.shadow.mapSize.height = 128
+            pointLightRef.current.shadow.mapSize.width = 256
+            pointLightRef.current.shadow.mapSize.height = 256
             // pointLightRef.current.shadow.camera.near = 0.5
             // pointLightRef.current.shadow.camera.far = 100
             // pointLightRef.current.shadow.camera.left = -10
@@ -25,8 +25,8 @@ const Experience = () => {
         }
                if (!! pointLightRef2.current) {
             pointLightRef2.current.shadow.bias = -0.0001
-            pointLightRef2.current.shadow.mapSize.width = 128
-            pointLightRef2.current.shadow.mapSize.height = 128
+            pointLightRef2.current.shadow.mapSize.width = 256
+            pointLightRef2.current.shadow.mapSize.height = 256
             // pointLightRef.current.shadow.camera.near = 0.5
             // pointLightRef.current.shadow.camera.far = 100
             // pointLightRef.current.shadow.camera.left = -10
