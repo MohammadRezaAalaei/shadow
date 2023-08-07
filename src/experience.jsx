@@ -10,9 +10,9 @@ const Experience = () => {
     const pointLightRef = useRef(null)
     useFrame( (state) => {
         if (!! pointLightRef.current) {
-            pointLightRef.current.shadow.bias = -0.00001
-            pointLightRef.current.shadow.mapSize.width = 512
-            pointLightRef.current.shadow.mapSize.height = 512
+            pointLightRef.current.shadow.bias = -0.0001
+            pointLightRef.current.shadow.mapSize.width = 128
+            pointLightRef.current.shadow.mapSize.height = 128
             // pointLightRef.current.shadow.camera.near = 0.5
             // pointLightRef.current.shadow.camera.far = 100
             // pointLightRef.current.shadow.camera.left = -10
