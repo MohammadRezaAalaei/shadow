@@ -19,15 +19,15 @@ export function Model(props) {
       <mesh geometry={nodes.MineralWool_ALUPROF_Brown.geometry} material={nodes.MineralWool_ALUPROF_Brown.material} position={[-3.365, 0, -7.256]} rotation={[-Math.PI, 0, -Math.PI]} scale={0.305} />
       <mesh geometry={nodes.Default_Wall.geometry} material={nodes.Default_Wall.material} scale={0.305} />
       <mesh geometry={nodes.Gypsum_Wall_Board.geometry} material={materials['Material.023']} scale={0.305} />
-      <mesh geometry={nodes['B&B_MAXALTO_3_013'].geometry} material={materials['B&B_MAXALTO_3_tarelka0.001']} position={[-1.352, 1.693, -4.372]} rotation={[Math.PI / 2, 0, 0.436]} scale={0.001} />
+      <mesh geometry={nodes['B&B_MAXALTO_3_013'].geometry} material={materials['B&B_MAXALTO_3_tarelka0_dark.001']} position={[-1.352, 1.693, -4.372]} rotation={[Math.PI / 2, 0, 0.436]} scale={0.001} />
       <mesh geometry={nodes['B&B_MAXALTO_3_014'].geometry} material={materials['B&B_MAXALTO_3_tarelka1.001']} position={[-1.29, 2.027, -4.338]} rotation={[-3.054, 0, 0]} scale={0.001} />
       <mesh geometry={nodes['B&B_MAXALTO_3_017'].geometry} material={materials['B&B_MAXALTO_3_korpus.001']} position={[-1.082, 1.857, -4.279]} rotation={[0, 1.571, 0]} scale={0.001} />
       <mesh geometry={nodes['B&B_MAXALTO_3_020'].geometry} material={materials['B&B_MAXALTO_3_korpus.001']} position={[-1.281, 1.857, -4.331]} rotation={[0, 1.571, 0]} scale={0.001} />
       <mesh geometry={nodes['B&B_MAXALTO_3_094'].geometry} material={materials['B&B_MAXALTO_3_tarelka2.001']} position={[-1.09, 1.999, -4.285]} rotation={[-3.054, 0, 0]} scale={0.001} />
       <mesh geometry={nodes['B&B_MAXALTO_3_107'].geometry} material={materials['B&B_MAXALTO_3_tarelka0.001']} position={[-1.191, 1.675, -4.336]} rotation={[Math.PI / 2, 0, -Math.PI / 9]} scale={0.001} />
       <mesh geometry={nodes['B&B_MAXALTO_3_109'].geometry} material={materials['B&B_MAXALTO_3_tarelka0.001']} position={[-1.557, 1.678, -4.328]} rotation={[Math.PI / 2, 0, 0.148]} scale={0.001} />
-      <mesh geometry={nodes['B&B_MAXALTO_3_121'].geometry} material={materials['B&B_MAXALTO_3_tarelka0.001']} position={[-1.709, 1.547, -4.274]} rotation={[Math.PI, -0.463, Math.PI]} scale={0.001} />
-      <mesh geometry={nodes['B&B_MAXALTO_3_123'].geometry} material={materials['B&B_MAXALTO_3_tarelka0.001']} position={[-1.443, 1.727, -4.354]} rotation={[Math.PI / 2, 0, 0.148]} scale={0.001} />
+      <mesh geometry={nodes['B&B_MAXALTO_3_121'].geometry} material={materials['B&B_MAXALTO_3_tarelka0_dark.001']} position={[-1.709, 1.547, -4.274]} rotation={[Math.PI, -0.463, Math.PI]} scale={0.001} />
+      <mesh geometry={nodes['B&B_MAXALTO_3_123'].geometry} material={materials['Material.003']} position={[-1.443, 1.727, -4.354]} rotation={[Math.PI / 2, 0, 0.148]} scale={0.001} />
       <mesh geometry={nodes['B&B_MAXALTO_3_124'].geometry} material={materials['B&B_MAXALTO_3_tarelka0.001']} position={[-1.737, 1.674, -4.354]} rotation={[Math.PI / 2, 0, -0.637]} scale={0.001} />
       <mesh geometry={nodes['B&B_MAXALTO_3_134'].geometry} material={materials['B&B_MAXALTO_3_tarelka0_dark.001']} position={[-1.21, 1.548, -4.263]} rotation={[0, -0.436, 0]} scale={0.001} />
       <mesh geometry={nodes['B&B_MAXALTO_3_136'].geometry} material={materials['B&B_MAXALTO_3_tarelka0.001']} position={[-0.65, 1.643, -4.361]} rotation={[0, 0, -0.436]} scale={0.001} />
@@ -368,50 +368,26 @@ export function Model(props) {
       <mesh geometry={nodes.Cap2004.geometry} material={materials['cap_material_1.007']} position={[-0.785, 0.741, 2.594]} rotation={[-Math.PI, 1.535, -Math.PI]} scale={0.01} />
       <mesh geometry={nodes.Fork004.geometry} material={materials['Fork_material.005']} position={[-0.785, 0.729, 2.748]} rotation={[-Math.PI, 1.535, -Math.PI]} scale={0.01} />
       <mesh geometry={nodes.Fork2004.geometry} material={materials['Fork_material.005']} position={[-0.763, 0.729, 2.775]} rotation={[-Math.PI, 1.535, -Math.PI]} scale={0.01} />
-      <group position={[-1.077, 0.787, 2.609]} rotation={[-Math.PI, 1.535, -Math.PI]} scale={0.01}>
-        <mesh geometry={nodes.Mesh102.geometry} material={materials['glass_material.007']} />
-        <mesh geometry={nodes.Mesh102_1.geometry} material={materials['Boltle_material_2.005']} />
-      </group>
       <mesh geometry={nodes.Knife004.geometry} material={materials['Fork_material.005']} position={[-0.798, 0.728, 2.442]} rotation={[-Math.PI, 1.535, -Math.PI]} scale={0.01} />
       <mesh geometry={nodes.Spoon004.geometry} material={materials['Fork_material.005']} position={[-0.795, 0.733, 2.408]} rotation={[-Math.PI, 1.535, -Math.PI]} scale={0.01} />
-      <mesh geometry={nodes.Wineglass004.geometry} material={materials['glass_material.007']} position={[-1.051, 0.841, 2.508]} rotation={[-Math.PI, 1.535, -Math.PI]} scale={0.01} />
       <mesh geometry={nodes.Cap005.geometry} material={materials['cap_material_2.007']} position={[-1.973, 0.735, 2.571]} rotation={[0, -1.385, 0]} scale={0.01} />
       <mesh geometry={nodes.Cap2005.geometry} material={materials['cap_material_1.007']} position={[-1.972, 0.741, 2.571]} rotation={[0, -1.385, 0]} scale={0.01} />
       <mesh geometry={nodes.Fork005.geometry} material={materials['Fork_material.006']} position={[-1.995, 0.729, 2.419]} rotation={[0, -1.385, 0]} scale={0.01} />
       <mesh geometry={nodes.Fork2005.geometry} material={materials['Fork_material.006']} position={[-2.021, 0.729, 2.395]} rotation={[0, -1.385, 0]} scale={0.01} />
-      <group position={[-1.686, 0.787, 2.512]} rotation={[0, -1.385, 0]} scale={0.01}>
-        <mesh geometry={nodes.Mesh103.geometry} material={materials['glass_material.007']} />
-        <mesh geometry={nodes.Mesh103_1.geometry} material={materials['Boltle_material_2.006']} />
-      </group>
       <mesh geometry={nodes.Knife005.geometry} material={materials['Fork_material.006']} position={[-1.938, 0.728, 2.72]} rotation={[0, -1.385, 0]} scale={0.01} />
       <mesh geometry={nodes.Spoon005.geometry} material={materials['Fork_material.006']} position={[-1.935, 0.733, 2.753]} rotation={[0, -1.385, 0]} scale={0.01} />
-      <mesh geometry={nodes.Wineglass005.geometry} material={materials['glass_material.007']} position={[-1.697, 0.841, 2.617]} rotation={[0, -1.385, 0]} scale={0.01} />
       <mesh geometry={nodes.Cap006.geometry} material={materials['cap_material_2.007']} position={[-1.37, 0.735, 1.997]} rotation={[-Math.PI, 0.033, -Math.PI]} scale={0.01} />
       <mesh geometry={nodes.Cap2006.geometry} material={materials['cap_material_1.007']} position={[-1.371, 0.741, 1.997]} rotation={[-Math.PI, 0.033, -Math.PI]} scale={0.01} />
       <mesh geometry={nodes.Fork006.geometry} material={materials['Fork_material.007']} position={[-1.217, 0.729, 2.008]} rotation={[-Math.PI, 0.033, -Math.PI]} scale={0.01} />
       <mesh geometry={nodes.Fork2006.geometry} material={materials['Fork_material.007']} position={[-1.188, 0.729, 1.987]} rotation={[-Math.PI, 0.033, -Math.PI]} scale={0.01} />
-      <group position={[-1.375, 0.787, 2.29]} rotation={[-Math.PI, 0.033, -Math.PI]} scale={0.01}>
-        <mesh geometry={nodes.Mesh104.geometry} material={materials['glass_material.007']} />
-        <mesh geometry={nodes.Mesh104_1.geometry} material={materials['Boltle_material_2.007']} />
-      </group>
       <mesh geometry={nodes.Knife006.geometry} material={materials['Fork_material.007']} position={[-1.523, 0.728, 1.999]} rotation={[-Math.PI, 0.033, -Math.PI]} scale={0.01} />
       <mesh geometry={nodes.Spoon006.geometry} material={materials['Fork_material.007']} position={[-1.556, 0.733, 1.994]} rotation={[-Math.PI, 0.033, -Math.PI]} scale={0.01} />
-      <mesh geometry={nodes.Wineglass006.geometry} material={materials['glass_material.007']} position={[-1.475, 0.841, 2.256]} rotation={[-Math.PI, 0.033, -Math.PI]} scale={0.01} />
-      <group position={[-1.471, 0.852, 2.69]} scale={0.01}>
-        <mesh geometry={nodes.Mesh127.geometry} material={materials['glass_material.007']} />
-        <mesh geometry={nodes.Mesh127_1.geometry} material={materials['Boltle_material_2.008']} />
-      </group>
       <mesh geometry={nodes.Cap007.geometry} material={materials['cap_material_2.007']} position={[-1.394, 0.735, 3.203]} scale={0.01} />
       <mesh geometry={nodes.Cap2007.geometry} material={materials['cap_material_1.007']} position={[-1.394, 0.741, 3.203]} scale={0.01} />
       <mesh geometry={nodes.Fork007.geometry} material={materials['Fork_material.008']} position={[-1.548, 0.729, 3.198]} scale={0.01} />
       <mesh geometry={nodes.Fork2007.geometry} material={materials['Fork_material.008']} position={[-1.576, 0.729, 3.219]} scale={0.01} />
-      <group position={[-1.399, 0.787, 2.911]} scale={0.01}>
-        <mesh geometry={nodes.Mesh105.geometry} material={materials['glass_material.007']} />
-        <mesh geometry={nodes.Mesh105_1.geometry} material={materials['Boltle_material_2.008']} />
-      </group>
       <mesh geometry={nodes.Knife007.geometry} material={materials['Fork_material.008']} position={[-1.241, 0.728, 3.196]} scale={0.01} />
       <mesh geometry={nodes.Spoon007.geometry} material={materials['Fork_material.008']} position={[-1.208, 0.733, 3.2]} scale={0.01} />
-      <mesh geometry={nodes.Wineglass007.geometry} material={materials['glass_material.007']} position={[-1.298, 0.841, 2.941]} scale={0.01} />
       <mesh geometry={nodes.Object_1.geometry} material={materials.Custom} />
       <mesh geometry={nodes.Object_10.geometry} material={materials.Material} />
       <mesh geometry={nodes.Object_11.geometry} material={materials.Material} />

@@ -8,12 +8,14 @@ import { VRButton, ARButton, XR, Controllers, Hands, useXR} from '@react-three/x
 import { TeleportationPlane } from '@react-three/xr'
 import SmoothLocomotion from './SmoothLocomotion.jsx'
 import SnapRotation from './SnapRotation'
-
+import { Environment } from '@react-three/drei'
+ 
 function App() {
   return (
     <div className='App'>
       <VRButton />
       <Canvas shadows>
+      <Environment files="cityhdri.exr" background />
       <XR>
         <Controllers />
         <Hands />
