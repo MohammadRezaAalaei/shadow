@@ -40,9 +40,9 @@ const Experience = () => {
 
     return (
         <>
-        <ambientLight intensity={0.3}/>
-        <pointLight intensity={0.5} position={point} castShadow={true} ref={pointLightRef}/>
-        <pointLight intensity={0.5} position={point2} castShadow={true} ref={pointLightRef2}/>
+        {/* <ambientLight intensity={0.3}/> */}
+        {/* <pointLight intensity={0.5} position={point} castShadow={true} ref={pointLightRef}/>
+        <pointLight intensity={0.5} position={point2} castShadow={true} ref={pointLightRef2}/> */}
         {/* <mesh position={point} castShadow={true}> 
         <sphereGeometry args={[0.2, 32, 32]}/>
         <meshPhongMaterial color="white"/>

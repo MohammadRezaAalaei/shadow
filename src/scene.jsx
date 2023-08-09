@@ -8,7 +8,12 @@ import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {
   const { nodes, materials } = useGLTF('models/noShadows.glb')
-  return (
+  for (const materialName in materials) {
+  if (Object.hasOwnProperty.call(materials, materialName)) {
+    materials[materialName].envMapIntensity  = 0.5;
+  }
+}
+return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Default_Floor001.geometry} material={materials['Material.023']} position={[0, 3.198, 0]} scale={0.305} />
       <mesh geometry={nodes.gharniz.geometry} material={materials['Exterier Door']} scale={0.305} />

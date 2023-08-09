@@ -15,7 +15,7 @@ function App() {
     <div className='App'>
       <VRButton />
       <Canvas shadows>
-      <Environment files="cityhdri.exr" background />
+      <Environment files="cityhdri.exr" background resolution={0}/>
       <XR>
         <Controllers />
         <Hands />
