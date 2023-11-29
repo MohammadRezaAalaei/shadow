@@ -9,33 +9,13 @@ import { TeleportationPlane } from '@react-three/xr'
 import SmoothLocomotion from './SmoothLocomotion.jsx'
 import SnapRotation from './SnapRotation'
 import { Environment } from '@react-three/drei'
- 
+import AppRouter from './AppRouter';
+
+
 function App() {
   return (
     <div className='App'>
-      <VRButton />
-      <Canvas shadows>
-      <Environment files="cityhdri.exr" background resolution={0}/>
-      <XR>
-        <Controllers />
-        <Hands />
-        {/* <TeleportationPlane */}
-          /** Whether to allow teleportation from left controller. Default is `false` */
-          leftHand={true}
-          /** Whether to allow teleportation from right controller. Default is `false` */
-          rightHand={false}
-          /** The maximum distance from the camera to the teleportation point. Default is `10` */
-          maxDistance={10}
-          /** The radial size of the teleportation marker. Default is `0.25` */
-          size={0.25}
-        />
-        
-        <OrbitControls/>
-        <SmoothLocomotion hand="left" />
-        <SnapRotation hand="right" />
-        <Experience/>
-      </XR>
-      </Canvas>
+    <AppRouter />
     </div>
   )
 }
